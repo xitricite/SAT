@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -230,7 +233,7 @@
 			</a><a href="http://www.sat.justice.wa.gov.au/D/decisions.aspx?uid=7291-4623-3895-9252" class="pure-u-1 pure-u-md-1-2">
 				<div class="pure-g">
 					<div class="pure-u-1-3 l-box">
-						<img src="img/_D.svg" class="pure-img illustration">
+						<img src="{% baseurl %}img/_D.svg" class="pure-img illustration">
 					</div>
 					<div class="pure-u-2-3 l-box">
 						<h2>Decisions</h2>
