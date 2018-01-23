@@ -1,0 +1,454 @@
+<html lang="en">
+
+<head>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>State Administrative Tribunal (SAT)</title>
+	<link rel="shortcut icon" type="image/png" href="../img/ico.png"></link>
+	<link rel="stylesheet" href="../css/pure-min.css">
+	<link rel="stylesheet" href="../css/grids-responsive-min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<!--
+	https://codepen.io/viriava/pen/LNEgNx?editors=1010
+ -->
+</head>
+
+<body>
+
+	<nav class="main-menu" aria-label="menu">
+		<ul class="menu">
+			<li class="menu-brand"><a href="#"><img src="../img/WA_gov_logo.svg"></a><a href="../index.html"><img src="../img/SAT_txt.svg"></a></li>
+			<li>
+				<span>🔎<input type="text" name="search" placeholder="Search this site..."><br>
+					<small>&emsp;&emsp;<a href="#">Or search the whole WA Government</a></small>
+				</span>
+			</li>
+			<li>
+				<small><a href="#">Sitetmap</a> | <a href="#">Accessibility</a> | <a href="#">Contact Us</a><br>
+				<a href="#" class="btn">Skip to main content</a>
+				</small>
+			</li>
+			<li class="order-end menu">
+				<ul class="breadcrumb faded-txt">
+					<li>Home</li>
+					<li>News &amp; Media Releases</li>
+				</ul>
+				<ul class="resizer">
+					<li><a href="#" id="decrease">Aa -</a></li>
+					<li><a href="#" id="reset">Aa</a></li>
+					<li><a href="#" id="increase">Aa +</a></li>
+				</ul>
+			</li>
+			<label for="menu-toggle" class="menu-btn"></label>
+			<input type="checkbox" id="menu-toggle" />
+			<nav id="menu" class="menu">
+				<ul>
+					<li><a href="#">About SAT</a>
+						<ul>
+							<li><a href="#">Jurisdiction</a>
+								<ul>
+									<li><a href="#">Human Rights</a></li>
+									<li><a href="#">Commercial and Civil</a></li>
+									<li><a href="#">Development and Resources</a></li>
+									<li><a href="#">Vocational Regulations</a></li>
+									<li><a href="#">List of Enabling Legislation</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Structure of SAT</a>
+								<ul>
+									<li><a href="#">Key Personnel</a></li>
+									<li><a href="#">Judicial Profiles</a></li>
+									<li><a href="#">SAT Members</a></li>
+								</ul>
+							</li>
+							<li><a href="#">History of SAT</a></li>
+							<li><a href="#">Annual Reports</a></li>
+							<li><a href="#">News &amp; Events</a></li>
+							<li><a href="#">Presentations &amp; Papers</a>
+								<ul>
+									<li><a href="#">Town Planning Law Conference 2009</a></li>
+									<li><a href="#">Vista Public Lecture Series</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Useful Links</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Using SAT</a>
+						<ul>
+							<li><a href="#">Overview of Procedures</a></li>
+							<li><a href="#">Respondent's Role</a></li>
+							<li><a href="#">Representatives</a></li>
+							<li><a href="#">Witnesses</a>
+								<ul>
+									<li><a href="#">Expert Witnesses</a></li>
+									<li><a href="#">Summonsing a witness or document</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Hearings and Dispute Resolution</a>
+								<ul>
+									<li><a href="#">Directions hearings</a></li>
+									<li><a href="#">Final hearings</a></li>
+									<li><a href="#">Minor Proceedings</a></li>
+									<li><a href="#">Alternative Dispute Resolution</a></li>
+									<li><a href="#">Mediations</a></li>
+									<li><a href="#">Compulsory Conferences</a></li>
+									<li><a href="#">Expert Conferrals</a></li>
+									<li><a href="#">Decisions on the Documents</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Costs and Costs Orders</a>
+								<ul>
+									<li><a href="#">How SAT Calculates Costs</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Hearing rooms</a></li>
+							<li><a href="#">Video &amp; telephone conferencing</a></li>
+							<li><a href="#">Regional &amp; Interstate</a></li>
+							<li><a href="#">Interpreters</a></li>
+							<li><a href="#">Access for people with disabilities</a></li>
+							<li><a href="#">Transcript Requests</a>
+								<ul>
+									<li><a href="#">Transcript Requests FAQ</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">Applying to SAT</a>
+						<ul>
+							<li><a href="#">How do I Apply?</a>
+								<ul>
+									<li><a href="#">Types of applications</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Urgent &amp; Interim Applications</a></li>
+							<li><a href="#">SAT Application Wizard</a></li>
+							<li><a href="#">Time Limits</a></li>
+							<li><a href="#">Serving the Application</a>
+								<ul>
+									<li><a href="#">Decision makers' email</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Elodgment for s.13(7) Commercial Tenancy matters</a></li>
+							<li><a href="#">Outside SAT's Scope</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Types of matters</a>
+						<ul>
+							<li><a href="#">Guardianship and Administration</a>
+								<ul>
+									<li><a href="#">How SAT handles guardianship and administration</a>
+										<ul>
+											<li><a href="#">Sterilisation Procedures</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Building Disputes</a></li>
+							<li><a href="#">Strata Titles</a></li>
+							<li><a href="#">Heritage Decisions</a></li>
+							<li><a href="#">Town Planning</a></li>
+							<li><a href="#">Land Valuation &amp; Tax</a></li>
+							<li><a href="#">Commercial Tenancy</a></li>
+							<li><a href="#">Vocational Regulations</a></li>
+							<li><a href="#">Local Government Decisions</a></li>
+							<li><a href="#">Resources &amp; Development matters</a></li>
+							<li><a href="#">Residential Parks</a></li>
+							<li><a href="#">Equal Opportunity</a></li>
+							<li><a href="#">Working with Children Checks</a></li>
+							<li><a href="#">Gender Reassignment</a></li>
+							<li><a href="#">Adoptions</a></li>
+							<li><a href="#">Mental Health Appeals</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Practice Notes, Forms &amp; Info Sheets</a>
+						<ul>
+							<li><a href="#">Practice Notes</a></li>
+							<li><a href="#">Forms</a></li>
+							<li><a href="#">Info Sheets</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Decisions</a>
+						<ul>
+							<li><a href="#">Final Decisions</a></li>
+							<li><a href="#">Appeals from SAT decisions</a></li>
+							<li><a href="#">Enforcing a SAT Order</a></li>
+							<li><a href="#">Decisions Database</a></li>
+							<li><a href="#">Decisions Bulletins</a>
+								<ul>
+									<li><a href="#">SAT Monthly Decisions Bulletins</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">Hearing List</a></li>
+					<li><a href="#">Public Register</a></li>
+					<li><a href="#">Contact SAT</a>
+						<ul>
+							<li><a href="#">Subscribe</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</ul>
+	</nav>
+
+
+	<article class="content">
+		<!-- News -->
+		<div class="pure-g main post">
+			<div class="underline pure-u-1 pure-md-3-4 l-box">
+				<h1>News &amp; Media Releases</h1>
+				<div class="pure-g">
+					<div class="pure-u-1 pure-u-md-1-2 l-box">
+						<p class="faded-txt">17 / 08 / 2017</p>
+						<h3>SAT Website Will Be Unavailable</h3>
+						<p>The State Administrative Tribunal website will be unavailable due to maintenance work from 8pm Tuesday 22 August 2017 to 3am Wednesday 23 August 2017 WST. We apologise for any inconvenience.</p>
+						<a href="#" class="btn-small">Read more...</a>
+					</div>
+					<div class="pure-u-1 pure-u-md-1-2 l-box">
+						<p class="faded-txt">17 / 08 / 2017</p>
+						<h3>SAT Website Will Be Unavailable</h3>
+						<p>The State Administrative Tribunal website will be unavailable due to maintenance work from 8pm Tuesday 22 August 2017 to 3am Wednesday 23 August 2017 WST. We apologise for any inconvenience.</p>
+						<a href="#" class="btn-small">Read more...</a>
+					</div>
+					<div class="pure-u-1 pure-u-md-1-2 l-box">
+						<p class="faded-txt">17 / 08 / 2017</p>
+						<h3>SAT Website Will Be Unavailable</h3>
+						<p>The State Administrative Tribunal website will be unavailable due to maintenance work from 8pm Tuesday 22 August 2017 to 3am Wednesday 23 August 2017 WST. We apologise for any inconvenience.</p>
+						<a href="#" class="btn-small">Read more...</a>
+					</div>
+					<div class="pure-u-1 pure-u-md-1-2 l-box">
+						<p class="faded-txt">17 / 08 / 2017</p>
+						<h3>SAT Website Will Be Unavailable</h3>
+						<p>The State Administrative Tribunal website will be unavailable due to maintenance work from 8pm Tuesday 22 August 2017 to 3am Wednesday 23 August 2017 WST. We apologise for any inconvenience.</p>
+						<a href="#" class="btn-small">Read more...</a>
+					</div>
+					<div class="pure-u-1 pure-u-md-1-2 l-box">
+						<p class="faded-txt">17 / 08 / 2017</p>
+						<h3>SAT Website Will Be Unavailable</h3>
+						<p>The State Administrative Tribunal website will be unavailable due to maintenance work from 8pm Tuesday 22 August 2017 to 3am Wednesday 23 August 2017 WST. We apologise for any inconvenience.</p>
+						<a href="#" class="btn-small">Read more...</a>
+					</div>
+					<div class="pure-u-1 pure-u-md-1-2 l-box">
+						<p class="faded-txt">17 / 08 / 2017</p>
+						<h3>SAT Website Will Be Unavailable</h3>
+						<p>The State Administrative Tribunal website will be unavailable due to maintenance work from 8pm Tuesday 22 August 2017 to 3am Wednesday 23 August 2017 WST. We apologise for any inconvenience.</p>
+						<a href="#" class="btn-small">Read more...</a>
+					</div>
+				</div>
+			</div>
+			<div class="underline sidebar content pure-u-1 pure-md-u-1-4">
+				<h3>Quick Links</h3>
+				<ul>
+					<li><a href="#">About SAT</a>
+						<ul>
+							<li><a href="#">Jurisdiction</a>
+								<ul>
+									<li><a href="#">Human Rights</a></li>
+									<li><a href="#">Commercial and Civil</a></li>
+									<li><a href="#">Development and Resources</a></li>
+									<li><a href="#">Vocational Regulations</a></li>
+									<li><a href="#">List of Enabling Legislation</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Structure of SAT</a>
+								<ul>
+									<li><a href="#">Key Personnel</a></li>
+									<li><a href="#">Judicial Profiles</a></li>
+									<li><a href="#">SAT Members</a></li>
+								</ul>
+							</li>
+							<li><a href="#">History of SAT</a></li>
+							<li><a href="#">Annual Reports</a></li>
+							<li><a href="#">News &amp; Events</a></li>
+							<li><a href="#">Presentations &amp; Papers</a>
+								<ul>
+									<li><a href="#">Town Planning Law Conference 2009</a></li>
+									<li><a href="#">Vista Public Lecture Series</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Useful Links</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Using SAT</a>
+						<ul>
+							<li><a href="#">Overview of Procedures</a></li>
+							<li><a href="#">Respondent's Role</a></li>
+							<li><a href="#">Representatives</a></li>
+							<li><a href="#">Witnesses</a>
+								<ul>
+									<li><a href="#">Expert Witnesses</a></li>
+									<li><a href="#">Summonsing a witness or document</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Hearings and Dispute Resolution</a>
+								<ul>
+									<li><a href="#">Directions hearings</a></li>
+									<li><a href="#">Final hearings</a></li>
+									<li><a href="#">Minor Proceedings</a></li>
+									<li><a href="#">Alternative Dispute Resolution</a></li>
+									<li><a href="#">Mediations</a></li>
+									<li><a href="#">Compulsory Conferences</a></li>
+									<li><a href="#">Expert Conferrals</a></li>
+									<li><a href="#">Decisions on the Documents</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Costs and Costs Orders</a>
+								<ul>
+									<li><a href="#">How SAT Calculates Costs</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Hearing rooms</a></li>
+							<li><a href="#">Video &amp; telephone conferencing</a></li>
+							<li><a href="#">Regional &amp; Interstate</a></li>
+							<li><a href="#">Interpreters</a></li>
+							<li><a href="#">Access for people with disabilities</a></li>
+							<li><a href="#">Transcript Requests</a>
+								<ul>
+									<li><a href="#">Transcript Requests FAQ</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">Applying to SAT</a>
+						<ul>
+							<li><a href="#">How do I Apply?</a>
+								<ul>
+									<li><a href="#">Types of applications</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Urgent &amp; Interim Applications</a></li>
+							<li><a href="#">SAT Application Wizard</a></li>
+							<li><a href="#">Time Limits</a></li>
+							<li><a href="#">Serving the Application</a>
+								<ul>
+									<li><a href="#">Decision makers' email</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Elodgment for s.13(7) Commercial Tenancy matters</a></li>
+							<li><a href="#">Outside SAT's Scope</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Types of matters</a>
+						<ul>
+							<li><a href="#">Guardianship and Administration</a>
+								<ul>
+									<li><a href="#">How SAT handles guardianship and administration</a>
+										<ul>
+											<li><a href="#">Sterilisation Procedures</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Building Disputes</a></li>
+							<li><a href="#">Strata Titles</a></li>
+							<li><a href="#">Heritage Decisions</a></li>
+							<li><a href="#">Town Planning</a></li>
+							<li><a href="#">Land Valuation &amp; Tax</a></li>
+							<li><a href="#">Commercial Tenancy</a></li>
+							<li><a href="#">Vocational Regulations</a></li>
+							<li><a href="#">Local Government Decisions</a></li>
+							<li><a href="#">Resources &amp; Development matters</a></li>
+							<li><a href="#">Residential Parks</a></li>
+							<li><a href="#">Equal Opportunity</a></li>
+							<li><a href="#">Working with Children Checks</a></li>
+							<li><a href="#">Gender Reassignment</a></li>
+							<li><a href="#">Adoptions</a></li>
+							<li><a href="#">Mental Health Appeals</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Practice Notes, Forms &amp; Info Sheets</a>
+						<ul>
+							<li><a href="#">Practice Notes</a></li>
+							<li><a href="#">Forms</a></li>
+							<li><a href="#">Info Sheets</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Decisions</a>
+						<ul>
+							<li><a href="#">Final Decisions</a></li>
+							<li><a href="#">Appeals from SAT decisions</a></li>
+							<li><a href="#">Enforcing a SAT Order</a></li>
+							<li><a href="#">Decisions Database</a></li>
+							<li><a href="#">Decisions Bulletins</a>
+								<ul>
+									<li><a href="#">SAT Monthly Decisions Bulletins</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">Hearing List</a></li>
+					<li><a href="#">Public Register</a></li>
+					<li><a href="#">Contact SAT</a>
+						<ul>
+							<li><a href="#">Subscribe</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="pure-g main footer">
+			<div class="underline pure-u-1 l-box">
+				<h2>
+					<a href="#" class="icon-links">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.04 19.82">
+							<path class="cls-1" d="M31,18.67l-29.95.14L1,1.14,31,1ZM1,1.14,16,13.89,31,1"/>
+						</svg>
+					</a>
+					<a href="#" class="icon-links">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.04 19.82">
+						 <rect class="cls-1" x="1.05" y="1.07" width="29.95" height="17.67" transform="translate(-0.05 0.07) rotate(-0.26)"/>
+						 <path
+						      class="cls-2"
+						      d="M22.41,5.94a5.25,5.25,0,0,1-1.51.41A2.63,2.63,0,0,0,22.06,4.9a5.24,5.24,0,0,1-1.67.64,2.63,2.63,0,0,0-4.47,2.39,7.45,7.45,0,0,1-5.41-2.74,2.63,2.63,0,0,0,.81,3.5,2.62,2.62,0,0,1-1.19-.33v0A2.62,2.62,0,0,0,12.24,11a2.56,2.56,0,0,1-.69.09,2.6,2.6,0,0,1-.49,0,2.63,2.63,0,0,0,2.45,1.82A5.26,5.26,0,0,1,10.25,14a5.35,5.35,0,0,1-.63,0A7.46,7.46,0,0,0,21.11,7.64c0-.11,0-.23,0-.34a5.31,5.31,0,0,0,1.31-1.36"/>
+						</svg>
+					</a>
+					<a href="#" class="icon-links">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.04 19.82">
+							<rect class="cls-1" x="1.05" y="1.07" width="29.95" height="17.67" transform="translate(-0.05 0.07) rotate(-0.26)"/>
+							<path
+					      class="cls-2"
+					      d="M18.26,6c.37,0,.74,0,1.12,0h.15V4.11l-.61-.06c-.38,0-.76,0-1.14,0a2.81,2.81,0,0,0-1.62.5,2.42,2.42,0,0,0-1,1.61,5.63,5.63,0,0,0-.07.83c0,.43,0,.87,0,1.3v.16H13.26v2.16H15.1V16h2.25V10.6h1.83l.28-2.17H17.34s0-1.07,0-1.54C17.37,6.26,17.75,6.06,18.26,6Z"/>
+					</svg>
+				</a>
+					<a href="#" class="icon-links">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.04 19.82">
+						  <g id="Layer_2" data-name="Layer 2">
+						    <g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M31,18.67l-29.95.14L1,1.14,31,1Z"/><polygon class="cls-2" points="12.34 15.21 21.3 9.88 12.29 4.61 12.34 15.21"/></g>
+						  </g>
+						</svg>
+					</a></h2>
+			</div>
+			<div class="underline pure-u-1 pure-u-sm-1-3 l-box">
+				<h5>State Administrative Tribunal</h5>
+				<p>Level 6,<br> State Administrative Tribunal Building,<br> 565 Hay Street,<br> PERTH WA 6000 or GPO Box U1991,<br> Perth 6845 (Next to the Perth City Library)</p>
+			</div>
+			<div class="underline pure-u-1 pure-u-sm-1-3 l-box">
+				<h5>Office Hours</h5>
+				<ul>
+					<li>Counter inquiries: Sixth floor 8:30am to 4:30pm.</li>
+					<li>Telephone inquiries: 8:30am to 4:30pm.</li>
+					<li>Email: <a href="#">sat@justice.wa.gov.au</a><br>
+						<small>(for sending information or submissions regarding matters currently before the Tribunal)</small></li>
+					<li>Phone: (08) 9219 3111 or 1300 306 017 (cost of a local call)</li>
+					<li>Fax: (08) 9325 5099</li>
+				</ul>
+			</div>
+			<div class="underline pure-u-1 pure-u-sm-1-3 l-box">
+				<h5>Parking and Access</h5>
+				<p>Limited disabled parking bays on the SAT site may be booked by telephoning the SAT on (08) 9219 3111.</p>
+				<p> Drop-off bays are located right out the front of our building (565 Hay Street) on Hay Street, they cannot be used for parking.</p>
+			</div>
+		</footer>
+	</article>
+
+
+	<script src="../js/script.js"></script>
+</body>
+
+</html>
